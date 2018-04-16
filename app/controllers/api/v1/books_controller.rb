@@ -13,6 +13,7 @@ module Api
       end
 
       def create
+        debugger
         book = current_user.books.new(book_params)
         if book.save
           render json:book, status: :ok
