@@ -17,4 +17,7 @@
 !/log/.keep
 !/tmp/.keep
 
+.idea/
+.idea/workspace.xml
+
 .byebug_history
